@@ -1,0 +1,2 @@
+include ':app', ':segmentview'
+rootProject.name='SegmentViewExample'

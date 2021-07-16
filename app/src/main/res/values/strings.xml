@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SegmentViewSample</string>
+    <string name="text1">Lorem Ipsum</string>
+    <string name="text2">of the printing and</string>
+    <string name="text3">is simply dummy</string>
+    <string name="text4">and typesetting</string>
+    <string name="text5">industry</string>
+</resources>

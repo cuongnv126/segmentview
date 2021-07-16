@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="SegmentLayout with SCROLLABLE style" />
+
+    <org.cuongnv.segmentview.SegmentLayout
+        android:id="@+id/segment_view"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_segment_background"
+        android:padding="@dimen/segment_stroke_width"
+        app:layout_constraintTop_toTopOf="parent"
+        app:sgm_isFixSize="false"
+        app:sgm_selectedDrawable="@drawable/bg_segment_selected">
+
+        <TextView
+            style="@style/SimpleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/text1" />
+
+        <TextView
+            style="@style/SimpleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/text2" />
+
+        <TextView
+            style="@style/SimpleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/text3" />
+
+        <TextView
+            style="@style/SimpleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/text4" />
+
+        <TextView
+            style="@style/SimpleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/text5" />
+
+        <TextView
+            style="@style/SimpleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/text1" />
+
+        <TextView
+            style="@style/SimpleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/text2" />
+
+        <TextView
+            style="@style/SimpleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/text3" />
+
+    </org.cuongnv.segmentview.SegmentLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="SegmentLayout with FIX style" />
+
+    <org.cuongnv.segmentview.SegmentLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_segment_background"
+        android:padding="@dimen/segment_stroke_width"
+        app:layout_constraintTop_toTopOf="parent"
+        app:sgm_isFixSize="true"
+        app:sgm_selectedDrawable="@drawable/bg_segment_selected">
+
+        <TextView
+            style="@style/SimpleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/text1" />
+
+        <TextView
+            style="@style/SimpleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/text2" />
+
+        <TextView
+            style="@style/SimpleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/text3" />
+
+    </org.cuongnv.segmentview.SegmentLayout>
+
+</LinearLayout>
