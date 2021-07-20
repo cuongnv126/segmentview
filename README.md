@@ -4,7 +4,7 @@ Simple SegmentView for Android with easily usage.
 ![](intro/example.gif)
 
 ## Usage
-### Easily using in xml layout.
+### Easily using in xml layout:
 ```xml
 <org.cuongnv.segmentview.SegmentLayout
     android:layout_width="match_parent"
@@ -30,7 +30,7 @@ Simple SegmentView for Android with easily usage.
 </org.cuongnv.segmentview.SegmentLayout>
 ```
 
-### Define via code.
+### Define via code:
 ```kotlin
 val options = arrayOf(R.string.text1, R.string.text2, R.string.text3)
 
